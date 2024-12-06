@@ -63,7 +63,7 @@ export default function Question() {
     }
 
     function next(){
-        if(numQuestion <= data.length-2){
+        if(numQuestion <= data[checked].length-2){
             if(answer_word !== undefined){
                 setNumQuestion((e)=>++e)
                 setCheragh_white([...cheragh_white, numQuestion+1])
