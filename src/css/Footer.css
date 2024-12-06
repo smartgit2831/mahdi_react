@@ -1,0 +1,16 @@
+.footer{
+    border: 2px solid black;
+    margin: 10px;
+    background: #2b4242;
+    color: wheat;
+}
+.footer p{
+    border-bottom: 2px solid;
+    width: fit-content;
+}
+.footer li{
+    list-style: none;
+}
+.footer_end{
+    text-align: center;
+}

@@ -1,0 +1,107 @@
+.GameColor{
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.counter{
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    margin: auto;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.squar{
+    /* width: 45px;
+    height: 45px; */
+    margin: 2px;
+    background: #1d1d1d;
+    box-shadow: 0 0 2px #000;
+    transition: 2s ease;
+}
+.squar_none{
+    display: none;
+}
+/* style marhale va adad */
+.score_div{
+    text-align: center;
+    color: aliceblue;
+    margin: 0px 0px 45px 0px;
+}
+.marhale_matn{
+    border-radius: 25px;
+    width: 25px;
+    background: rgb(146, 132, 132);
+    padding: 8px;
+    margin: 0px 0px 0px 22px;
+    box-shadow: 1px 1px 1px 2px rgb(158, 154, 154);
+    font-size: 1.2rem;
+}
+.score , .forsat{
+    border-radius: 12px;
+    background: greenyellow;
+    color: #000;
+}
+.alert{
+    font-size: 1.6em;
+    position: absolute;
+    width: 450px;
+    margin: auto;
+    background: rgb(143, 141, 141);
+    text-align: center;
+    border-radius: 25px;
+}
+.row{
+    column-count: 2;
+}
+.aler_h4 .row .col-6{
+    margin-top: -30px;
+}
+button{
+    z-index: 3;
+    background: rgb(119, 216, 123);
+    color: white;
+    border: solid 1px white;
+    text-decoration:none;
+    cursor:pointer;
+    font-size:1.2em;
+    padding:14px 10px;
+    width:130px;
+    margin: 10px;
+    outline: none;
+    background: linear-gradient(10deg ,rgb(119, 216, 123), rgb(19, 198, 253));
+    animation-direction: reverse;
+    border-radius: 5px;
+}
+button:hover{
+    background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1)), url("../../public/images/a.jpg");
+    animation-direction: reverse;
+    border-radius: 25px;
+    transition: all 1s ease 0s;
+}
+.item{
+    margin-bottom: 25px;
+    margin-top: 120px;
+}
+.forsat{
+    padding: 12px;
+}
+@media(max-width: 320px){
+    body{
+        margin-top: 125px;
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .alert{
+        width: 300px;
+    }
+}

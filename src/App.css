@@ -1,0 +1,14 @@
+.App {
+  direction: rtl;
+  font-size:18px;
+}
+.navbar{
+  text-align: center;
+  display: inline-flex;
+  padding: 10px;
+}
+body{
+  overflow-x: hidden;
+  font-size: 16px;
+  margin: 0;
+}

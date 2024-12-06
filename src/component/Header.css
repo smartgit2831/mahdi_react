@@ -1,0 +1,14 @@
+.navbar{
+    width: 100%;
+    width: -moz-available;
+    /* font-size: 13px; */
+}
+.navbar-nav li{
+    box-shadow: 2px 4px 8px 2px white;
+    -webkit-transform: skew(20deg);
+    border-radius: 17px;
+    margin: 5px;
+}
+.navbar-nav li a p{
+    font-size: 18px;
+}

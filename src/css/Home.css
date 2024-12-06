@@ -1,0 +1,131 @@
+.chistan{
+    background:rgb(134, 123, 123);
+     color: white;
+     text-align: center;
+}
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin:5px 0;
+}
+h1 {
+    font-size: 2.6em;
+}
+.red{
+    color: red;
+}
+h2 {
+    font-size: 1.6em;
+}
+p{
+    font-size: 1.6em;
+}
+.mylives{
+    font-size:1.6em;
+    text-align:center;
+}
+.note{
+    font-size:1.6em;
+    text-align:center;
+}
+button{
+    background: orange;
+    color: white;
+    border: solid 1px white;
+    text-decoration:none;
+    cursor:pointer;
+    font-size:1.2em;
+    padding:18px 10px;
+    width:180px;
+    margin: 10px;
+    outline: none;
+    background: linear-gradient(10deg ,rgb(212, 224, 37), rgb(19, 198, 253));
+    animation-direction: reverse;
+    border-radius: 5px;
+}
+button:hover{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255,255,255,1)), url("../../public/images/a.jpg");
+    animation-direction: reverse;
+    border-radius: 25px;
+    transition: all 1s ease 0s;
+}
+.word_div{
+    width: 400px;
+    margin: auto;
+    background: rgb(54, 52, 52);
+    border-radius: 25px;
+    padding: 8px;
+}
+.stickman{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.detail{
+    border: 1px solid rgb(114, 107, 107);
+    margin: 0px 25px 0px 25px;
+    background: rgb(38, 41, 42);
+    border-radius: 12px;
+    box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0);
+}
+/* alert */
+.alert{
+    display: none;
+    position: absolute;
+    border-radius: 25px;
+    background: rgb(232, 232, 232);
+    color: black;
+    width: 450px;
+    margin: 240px 10% 0px 31%;
+    z-index: 2;
+}
+.alert_block{
+    display: block;
+    position: absolute;
+    border-radius: 25px;
+    background: rgb(232, 232, 232);
+    color: black;
+    width: 450px;
+    margin: 240px 33% 0px 31%;
+    z-index: 2;
+}
+.opacity{
+    opacity: 0.1;
+}
+.level, .sahih, .absolute{
+    position: absolute;
+    margin-left: -17px;
+}
+@media(max-width:400px){
+    body{
+        overflow-x: hidden;
+    }
+    .word_div{
+        width: 300px;
+        margin: auto;
+    }
+    .detail{
+        margin: 0px;
+    }
+    button{
+        /* background: orange; */
+        color: white;
+        border: solid 1px white;
+        text-decoration:none;
+        cursor:pointer;
+        font-size:1.2em;
+        margin: 0px;
+        width: 150px;
+    }
+    /* alert */
+    .alert{
+        width: 300px;
+        margin: 240px 10% 0px 5%;
+    }
+    /* absolute javab */
+    .javab{
+        display: none;
+    }
+}
+
+

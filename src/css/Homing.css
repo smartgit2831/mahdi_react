@@ -1,0 +1,41 @@
+.sec{
+    border: 2px solid black;
+    width: 92%;
+    margin: 12px auto;
+    border-radius: 8px;
+    background: #cecdcd;
+}
+.but{
+    background: #178cf3;
+}
+.image img{
+    width: 75%;
+    height: 100%;
+    border-radius: 19px;
+    padding: 8px;
+}
+.one h3{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: #b2bab0;
+}
+.one a{
+    text-decoration: none;
+}
+@media(max-width : 650px){
+    .image img{
+        width: 139%;
+        height: 100%;
+        border-radius: 19px;
+        padding: 5px;
+        margin-right: -10px;
+    }
+    .matn{
+        font-size: 19px;
+    }
+    .but{
+        width: 100%;
+        background: #178cf3;
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "hard":[
+        {
+            "queez" : "cinema ",
+            "choice" : ["سینما","سیگار","سیب","باشگاه"],
+            "answer" : "سینما"
+        },
+        {
+            "queez" : "شمال",
+            "choice" : ["east","south","north","west"],
+            "answer" : "north"
+        },
+        {
+            "queez" : "باغبان",
+            "choice" : ["gard","gardener","garden","gardens"],
+            "answer" : "gardener"
+        },
+        {
+            "queez" : "pulse",
+            "choice" : ["پوست","خون","رگ","نبض"],
+            "answer" : "نبض"
+        },
+        {
+            "queez" : "broken",
+            "choice" : ["شکسته","شکست","شسته","شست"],
+            "answer" : "شکسته"
+        },
+        {
+            "queez" : "دیوار",
+            "choice" : ["war","wall","warning","whate"],
+            "answer" : "wall"
+        },
+        {
+            "queez" : "stool",
+            "choice" : ["چهارپا","چهارچرخه","چهارپایه","چهارچوب"],
+            "answer" : "چهارپایه"
+        },
+        {
+            "queez" : "چوب",
+            "choice" : ["cable","wire","woodworking","wood"],
+            "answer" : "wood"
+        },
+        {
+            "queez" : "اهن",
+            "choice" : ["iron","rock","oil","chain"],
+            "answer" : "iron"
+        }
+    ]
+}

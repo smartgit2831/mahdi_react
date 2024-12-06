@@ -1,0 +1,47 @@
+.body{
+    margin-top: 125px;
+    text-align: center;
+}
+.header{
+    border-radius: 10px;
+    margin: auto auto 5px;
+    width: 300px;
+    padding: 35px 2px 2px 2px;
+    background: #a2b2a2;
+    box-shadow: 0px 2px 8px 2px black;
+}
+.box{
+    border-radius: 50%;
+    width: 61px;
+    height: 45px;
+    color: aliceblue;
+    font-size: 25px;
+    background: rgb(37, 36, 36);
+}
+.box:hover{
+    background: #999997;
+}
+.whrite{
+    word-break: break-all;
+    direction: initial;
+}
+.whrite_onlin{
+    text-align: right;
+    margin: 45px 4px 2px 2px;
+    color: rgb(49, 49, 51);
+}
+.pak,.baghi,.taghsim,.bargasht,.zarb,.minez,.plus{
+    background: #3a88ae;
+}
+.mosavi{
+    background: orange;
+}
+
+
+.bord{
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: repeat(4,0fr);
+    display: inline-grid;
+    cursor: pointer;
+}

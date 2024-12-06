@@ -1,0 +1,39 @@
+{
+    "normal":[
+        {
+            "queez" : "a-b-c-___-e-f",
+            "choice" : ["d","g","h","i"],
+            "answer" : "d"
+        },
+        {
+            "queez" : "wat__r",
+            "choice" : ["a","g","e","u"],
+            "answer" : "e"
+        },
+        {
+            "queez" : "__orse",
+            "choice" : ["b","l","s","h"],
+            "answer" : "h"
+        },
+        {
+            "queez" : "mo__se",
+            "choice" : ["n","u","k","j"],
+            "answer" : "u"
+        },
+        {
+            "queez" : "t__",
+            "choice" : ["v","h","l","w"],
+            "answer" : "v"
+        },
+        {
+            "queez" : "flowe__",
+            "choice" : ["x","c","b","r"],
+            "answer" : "r"
+        },
+        {
+            "queez" : "c__w",
+            "choice" : ["m","z","o","p"],
+            "answer" : "o"
+        }
+    ]
+}

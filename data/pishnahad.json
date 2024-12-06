@@ -1,0 +1,88 @@
+{
+    "pishnahad": [
+    {
+      "id": "1",
+      "title": "روشویی ",
+      "src": "a6.jpg",
+      "price": 2200000,
+      "stars": [
+        {
+          "star": "1"
+        },
+        {
+          "star": "2"
+        },
+        {
+          "star": "3"
+        },
+        {
+          "star": "4"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "پایه ستون",
+      "src": "d.jpg",
+      "about": "my name ios zynab khashey",
+      "price": 1300000,
+      "stars": [
+        {
+          "star": 1
+        },
+        {
+          "star": 2
+        },
+        {
+          "star": 3
+        },
+        {
+          "star": 4
+        },
+        {
+          "star": 5
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "پایه ایفون",
+      "src": "u.jpg",
+      "price": 1500000,
+      "stars": [
+        {
+          "star": "1"
+        },
+        {
+          "star": "2"
+        },
+        {
+          "star": "3"
+        },
+        {
+          "star": "4"
+        }
+      ]
+    },
+    {
+      "id": "VISXawj",
+      "title": "ابنما",
+      "src": "h.jpg",
+      "price": 4500000,
+      "stars": [
+        {
+          "star": "1"
+        },
+        {
+          "star": "2"
+        },
+        {
+          "star": "3"
+        },
+        {
+          "star": "4"
+        }
+      ]
+    }
+  ]
+}

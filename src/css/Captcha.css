@@ -1,0 +1,37 @@
+.captcha-div{
+    background: #512e3d;
+    padding: 10%;
+    text-align: center;
+}
+.captcha{
+    border: 1px solid #706161;
+    width: 500px;
+    margin:auto;
+    background: white;
+    border-radius: 10px;
+}
+.button_capcha{
+    background: rgb(2, 101, 126);;
+}
+.capcha_code{
+    width: 70px;
+    background: #090000;
+    margin: auto auto 17px;
+    width: 186px;
+    padding: 10px;
+    color: white;
+}
+.form-contorol{
+    text-align: end;
+}
+.time{
+    font-size: 8px;
+}
+.alarm{
+    font-size: 10px;
+}
+@media(max-width : 560px){
+    .captcha{
+        width: 324px;
+    }
+}
