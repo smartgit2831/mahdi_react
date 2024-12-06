@@ -92,7 +92,7 @@ export default function Question() {
         setMatn('ازمون به پایان رسید')
         
         for(let i=0; i<data.length; i++){
-            if(data[i].answer === array_answer[i]){
+            if(data[checked][i].answer === array_answer[i]){
                 setDorost((e)=>++e)
             }else{
                 console.log("fghjk")
