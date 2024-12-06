@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/mahdi_react/static/css/main.e7ded2a0.css",
+    "main.css": "/mahdi_react/static/css/main.1814c052.css",
     "main.js": "/mahdi_react/static/js/main.044b11f4.js",
     "static/media/a.jpg": "/mahdi_react/static/media/a.ce6a34f316e79d6c2fee.jpg",
     "index.html": "/mahdi_react/index.html",
-    "main.e7ded2a0.css.map": "/mahdi_react/static/css/main.e7ded2a0.css.map",
+    "main.1814c052.css.map": "/mahdi_react/static/css/main.1814c052.css.map",
     "main.044b11f4.js.map": "/mahdi_react/static/js/main.044b11f4.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7ded2a0.css",
+    "static/css/main.1814c052.css",
     "static/js/main.044b11f4.js"
   ]
 }
