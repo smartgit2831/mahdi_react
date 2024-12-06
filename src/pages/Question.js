@@ -168,7 +168,7 @@ export default function Question() {
                         <span key={e} className='cheragh' style={{background : 'green'}}>{e}</span>
                     ))}
                 </span>
-                <p class="scor">تعداد {dorost} جواب درست از {data && data.length} تا</p>
+                <p class="scor">تعداد {dorost} جواب درست از {data && data[checked].length} تا</p>
                 <NavLink to={"https://smartgit2831.github.io/question"}><button class="butover">صفحه نخست</button></NavLink>
             </div>
         </div>
