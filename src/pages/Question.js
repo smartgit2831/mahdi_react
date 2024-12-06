@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import '../css/Question.css'
 import { useAxios } from '../hooks/useAxios'
+import { NavLink } from 'react-router-dom'
 export default function Question() {
   
     
@@ -20,7 +21,6 @@ export default function Question() {
     const url1 = `https://smartgit2831.github.io/file_my_code/${checked}.json`
     const {data} = useAxios(url1)
 
-    console.log(checked)
     function aply(e){
         e.preventDefault()
         setStart_timer(true)
@@ -63,7 +63,8 @@ export default function Question() {
     }
 
     function next(){
-        if(numQuestion <= data.length-2){
+        console.log(data[checked][numQuestion])
+        if(numQuestion <= data[checked].length-2){
             if(answer_word !== undefined){
                 setNumQuestion((e)=>++e)
                 setCheragh_white([...cheragh_white, numQuestion+1])
@@ -98,9 +99,6 @@ export default function Question() {
                 console.log("fghjk")
             }
         }
-    }
-    function nokhost(){
-        window.location.reload()
     }
     return (
         <div>
@@ -172,7 +170,7 @@ export default function Question() {
                     ))}
                 </span>
                 <p class="scor">تعداد {dorost} جواب درست از {data && data.length} تا</p>
-                <button class="butover" onClick={nokhost}>صفحه نخست</button>
+                <NavLink to={"https://smartgit2831.github.io/question"}><button class="butover">صفحه نخست</button></NavLink>
             </div>
         </div>
     )
