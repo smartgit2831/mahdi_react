@@ -63,7 +63,6 @@ export default function Question() {
     }
 
     function next(){
-        console.log(data[checked][numQuestion])
         if(numQuestion <= data[checked].length-2){
             if(answer_word !== undefined){
                 setNumQuestion((e)=>++e)
