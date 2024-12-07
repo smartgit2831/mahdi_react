@@ -91,7 +91,7 @@ export default function Question() {
         setDisplay_bodi(false)
         setMatn('ازمون به پایان رسید')
         
-        for(let i=0; i<data.length; i++){
+        for(let i=0; i<data[checked].length; i++){
             if(data[checked][i].answer === array_answer[i]){
                 setDorost((e)=>++e)
             }else{
