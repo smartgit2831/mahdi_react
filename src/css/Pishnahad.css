@@ -103,6 +103,9 @@
     .product-sec{
         width: 172px;
     }
+    .shoping-card{
+        margin: 10px 0px;
+    }
     .shoping-card .buttons .left .extend-btn{
         width: 36px;
         padding: 7px 10px;
@@ -118,5 +121,8 @@
     }
     .shoping-card .buttons .left .extend-btn:hover{
         width: 70px;
+    }
+    .shoping-card .img-sec img{
+        height: 150px;
     }
 }
